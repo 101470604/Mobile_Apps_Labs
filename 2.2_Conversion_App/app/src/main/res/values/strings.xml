@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Conversion_App</string>
+    <string name="main_title">Conversion App</string>
+    <string name="miles"> Miles </string>
+    <string name="feet"> feet </string>
+    <string name="inches"> Inches </string>
+    <string name="result"> </string>
+    <string name="convert"> Convert</string>
+    <string name="label_m"> M </string>
+    <string name="label_cm"> CM </string>
+</resources>
