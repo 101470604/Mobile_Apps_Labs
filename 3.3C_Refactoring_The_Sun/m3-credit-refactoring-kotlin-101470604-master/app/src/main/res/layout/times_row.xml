@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+    <TextView
+            android:id="@+id/label_date"
+            android:layout_width="60dp"
+            android:layout_weight ="1"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            />
+    <TextView
+            android:id="@+id/label_sunrise_time"
+            android:layout_width="wrap_content"
+            android:layout_weight ="1"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sunrise"
+            android:textColor="#ffd700"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            />
+    <TextView
+            android:id="@+id/value_sunrise_time"
+            android:layout_width="wrap_content"
+            android:layout_weight ="1"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            />
+    <TextView
+            android:id="@+id/label_end_time"
+            android:layout_width="wrap_content"
+            android:layout_weight ="1"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sunset"
+            android:textColor="#ff8400"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            />
+    <TextView
+            android:id="@+id/value_sunset_time"
+            android:layout_width="wrap_content"
+            android:layout_weight ="1"
+            android:layout_height="wrap_content"
+            android:textColor="#ff8400"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+           />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MovieRatings</string>
+    <string name="loading">LOADING </string>
+</resources>

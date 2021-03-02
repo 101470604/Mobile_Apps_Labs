@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/row_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:padding="2dip"
+        android:src="@drawable/icon" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/row_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terminator 2"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/row_subtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rating: 5.5, 2340 votes"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

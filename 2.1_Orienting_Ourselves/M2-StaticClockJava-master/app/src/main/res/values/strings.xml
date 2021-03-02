@@ -1,0 +1,4 @@
+<resources>
+    <string name="hello">Hello Australia</string>
+    <string name="app_name">Static Clock</string>
+</resources>
